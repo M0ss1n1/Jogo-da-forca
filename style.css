@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #944bbe;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,13 +23,13 @@ h1 {
 
 /* Estilos para a janela do jogo */
 #janela-jogo {
-    background-color: #fff;
+    background-color: #e9e9e9;
     border: 2px solid #333;
     padding: 90px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: inline-block; /* Isso permite que o conteúdo tenha uma borda em volta */
+    display: inline-block;
 }
 
 #palavra-escondida {
@@ -42,25 +42,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-#teclado {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-#teclado {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .row {
     display: flex;
     justify-content: center;
@@ -71,13 +52,13 @@ h1 {
     font-size: 24px;
     padding: 10px;
     text-align: center;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #c0bebe;
+    border: 1px solid #979797;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 3px;
 }
 
 #teclado button:hover {
-    background-color: #ddd;
+    background-color: #6b6b6b;
 }
